@@ -31,9 +31,9 @@ function listNFTs () {
   for(let i = 0; i < allNFTs.length; i++) {
     console.log("\nID: \t" + (i+1))
     console.log("Name: \t" + allNFTs[i].name)
-    console.log("Name: \t" + allNFTs[i].eyeColor)
-    console.log("Name: \t" + allNFTs[i].shirtType)
-    console.log("Name: \t" + allNFTs[i].bling)
+    console.log("Eye Color: \t" + allNFTs[i].eyeColor)
+    console.log("Shirt Type: \t" + allNFTs[i].shirtType)
+    console.log("Bling: \t" + allNFTs[i].bling)
   }
 }
 
